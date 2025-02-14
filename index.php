@@ -4,6 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PHP Tasks</title>
+
+    <style>
+        *{
+            box-sizing:border-box;
+            font-family:arial;
+            color:white;
+            text-decoration:none;
+        }
+        body{
+            padding: 30px 200px;
+            background:black;
+            background: linear-gradient(90deg, #484d8c 0%, #020202 100%)
+        }
+        a:hover{
+            text-decoration:underline;
+        }
+        ul{
+            margin:10px;
+        }
+    </style>
 </head>
 <body>
     <h2>File #1</h2>
