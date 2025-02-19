@@ -18,7 +18,7 @@ JOIN Courses c ON ca.course_id = c.course_id
 JOIN Instructors i ON ca.instructor_id = i.instructor_id
 WHERE ca.semester = 'Fall' AND ca.year = 2023;
 
--- #8
+-- #8 Find the average grade for a particular course.
 SELECT c.course_name, AVG(CASE 
                              WHEN e.grade = 'A' THEN 4
                              WHEN e.grade = 'B' THEN 3
